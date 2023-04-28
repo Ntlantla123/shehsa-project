@@ -1,0 +1,117 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+.container1 {
+   position: relative;
+   top: 70px;
+   height: 600px;
+   width: 100%;
+   border-bottom: solid 2px green;
+   border-left: solid 2px green;
+   border-right: solid 2px green;
+   border-top: solid 2px green;
+   border-radius: 20px;
+}
+
+.conatiner2 {
+   width: 40%;
+   background-color: aqua;
+}
+
+img {
+   position: relative;
+   top: 15px;
+   left: 23%;
+}
+
+.image2 {
+   position: absolute;
+   border-radius: 30px;
+   top: 30px;
+   height: 530px;
+   left: 48%;
+}
+
+h2 {
+   position: relative;
+   left: -25%;
+   top: 100px;
+   text-align: center;
+}
+
+input {
+   position: relative;
+   top: 10px;
+   height: 50px;
+   width: 50%;
+   left: 16%;
+   display: flex;
+   border-bottom: solid 1px grey;
+   border-left: solid 1px grey;
+   border-right: solid 1px grey;
+   border-top: solid 1px grey;
+}
+
+input::placeholder {
+   position: relative;
+   left: 4%;
+}
+
+.input1 {
+   position: relative;
+   top: 150px;
+   left: 13%;
+   display: flex;
+}
+
+.row {
+   position: relative;
+   left: 8%;
+   top: -30px;
+}
+
+p {
+   position: relative;
+   left: 10%;
+   top: 180px;
+}
+
+.p1 {
+   position: relative;
+   left: 4%;
+   top: 240px;
+}
+
+span {
+   color: black;
+   text-decoration: none;
+   font-size: 1.2rem;
+}
+
+.login {
+   position: relative;
+   left: 15%;
+   top: 210px;
+   background-color: green;
+   border: none;
+   height: 3em;
+   width: 40%;
+   left: -4%;
+   color: white;
+   justify-content: center;
+   transition: 0.5s;
+   border-radius: 10px;
+   font-size: 1.2rem;
+   font-weight: 700;
+}
+
+button:hover {
+   transform: scale(0.95);
+}
+
+Link {
+   text-decoration: none;
+}
